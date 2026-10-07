@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sol-menu {
+    width: 15%;
+    background-image: url(../resimler/arkaplanyıldızlıııı.gif);
+    background-position: center;
+}
+
+.icerik {
+    width: 85%;
+
+    background-image: url("");
+    background-repeat: repeat-y;
+
+
+}
+
+.icerik img {
+    display: block;
+
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sol-menu {
+    width: 15%;
+    background-image: url("../resimler/arkaplanyıldızlıııı.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.icerik {
+    width: 75%;
+    background-image: url("../resimler/ikincisayfa\ arkaplan.png");
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ana-resim {
+    width: 400px;
+}

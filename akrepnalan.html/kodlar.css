@@ -1,0 +1,53 @@
+.resim {
+    width: 90%;
+    height: 90%;
+
+    background-image: url("../resimler/arkaplan.webp");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.ust-resim {
+    width: 300px;
+
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yanmenü {
+    .yan-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+
+        width: 205px;
+        height: 100vh;
+
+        background-color: black;
+        background-image: url("yildizlar.gif");
+        background-repeat: repeat;
+
+        padding-top: 40px;
+    }
+
+    .yan-menu a {
+        display: block;
+
+        color: cyan;
+        text-decoration: none;
+
+        font-size: 15px;
+        font-weight: bold;
+
+        margin-bottom: 10px;
+        margin-left: 35px;
+    }
+
+    .yan-menu a:hover {
+        color: white;
+    }
+}
